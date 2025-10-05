@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: inline-block;
+}
+
+/* ===== Webサイト全体のスタイル ===== */
+/* html */
+html {
+  height: 100%;
+}
+
+/* body */
+body {
+  font-family: sans-serif;
+  height: 100%;
+  margin: 0;
+}
+
+/* h1見出し */
+h1 {
+  color: #ffffee; /* フォントの色 */
+  -webkit-text-stroke: 3px #000000;
+  font-size: 150px; /* フォントの大きさ */
+  font-family: inherit; /* フォントの種類 */
+  text-align: center; /* 文字・画像を中央にそろえる */
+  height: 300px; /* 高さ */
+  padding-top: 40px; /* 上がわの余白 */
+  background-repeat: no-repeat; /* 背景のくり返しをやめる */
+  background-position: top center; /* 背景の位置 */
+}
+
+/* ===== ヘッダーのスタイル ===== */
+/* ヘッダーの箱 */
+header {
+  background-color: #ffffff; /* 背景画像 */
+  background-repeat: no-repeat;
+  background-size: 400px;
+  width: 1920px;
+  position: fixed;
+  z-index: 999;
+  margin-top: -150px;
+}
+
+/* h2見出し */
+header h2 {
+  color: #ffffff;
+  border-color: #ffcc11;
+}
+
+/* 段落 */
+header p {
+  color: #000000;
+  font-size: medium;
+  background-color: #ffffee;
+}
+
+/* ナビゲーションの箱 */
+nav {
+  background-color: #663300;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* リスト全体 */
+nav ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+/* １つ１つのリスト */
+nav li {
+  display: inline-block;
+  margin-right: 40px;
+}
+
+/* リンク */
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* リンクにふれた時 */
+nav a:hover {
+  color: #ffcc11;
+}
+
+/* ===== お店紹介のスタイル ===== */
+/* セクション */
+.koppi303 {
+  background-color: #ffffee; /* 背景の色 */
+  color: #663300;
+  padding: 30px;
+}
+
+/* h2見出し */
+.title {
+  font-size: 30px;
+  border-left-style: solid;
+  border-left-width: 10px;
+  padding-left: 15px;
+  margin-bottom: 50px;
+}
+
+/* 段落 */
+.koppi303 p {
+  font-size: 20px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+/* ショップの文章と画像を囲う要素 */
+.koppi303-content-wrap {
+  display: flex;
+}
+
+/* ===== パン紹介のスタイル ===== */
+/* セクション */
+.photo {
+  padding: 10px;
+  background-image: url(img/image1.jpg);
+}
+
+.photo-content-wrap {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+/* h2見出し */
+.photo h2 {
+  color: #ffffff;
+  border-color: #ffcc11;
+}
+
+/* h3見出し */
+.photo h3 {
+  color: #663300;
+}
+
+/* 段落 */
+.photo p {
+  color: #000000;
+  font-size: medium;
+  background-color: #ffffee;
+}
+
+/* 大きな箱 */
+.big {
+  width: fit-content;
+  height: fit-content;
+  padding: 15px;
+  margin: 20px;
+  background-color: #ffffff;
+  box-shadow: 10px 10px 20px #000000; /* 影 */
+  transform: rotate(-5deg); /* 回転させる */
+}
+
+/* 小さな箱 */
+.small {
+  width: fit-content;
+  height: fit-content;
+  padding: 15px;
+  margin: 20px;
+  background-color: #ffffff;
+  box-shadow: 10px 10px 20px #000000;
+  float: right;
+}
+
+/* ===== 値段表のスタイル ===== */
+/* セクション */
+.eeee {
+  padding: 30px;
+  background-color: #ffffe6;
+}
+
+/* h2見出し */
+.eeee h2 {
+  color: #663300;
+  border-color: #663300;
+}
+
+/* 表 */
+.eeee table {
+  background-color: #ffffdd;
+  border-collapse: collapse; /* 表の隙間（すきま） */
+  width: 100%;
+}
+
+/* 表のセル */
+.eeee td {
+  border: 1px solid #000000;
+  padding: 10px;
+}
+
+/* 表の見出しセル */
+.eeee th {
+  border: 1px solid #000000;
+  padding: 10px;
+  background-color: #ffcc11;
+  text-align: left;
+}
+
+/* h3見出し */
+.access h3 {
+  font-size: 50px;
+  font-family: lobster;
+  margin-top: 0px;
+}
+
+/* リスト */
+.access ul {
+  list-style-type: none; /* リストのマーカー */
+  padding-left: 0px;
+}
+
+/* 箱 */
+
+.access .access-content-wrap {
+  display: flex;
+}
+
+.access-content-wrap div {
+  width: 50%;
+}
+
+/*イベント情報*/
+
+.ivent {
+  padding: 10px;
+  background-image: url(img/pexels-evenecer-andujar-695467.jpg);
+}
+
+.ivent h2 {
+  color: #ffffff;
+  border-color: #ffcc11;
+}
+
+/* イベント小さな箱 */
+.i_photo {
+  width: 1200px;
+  font-size: large;
+  color: #604020;
+  padding: 15px;
+  margin: 20px;
+  background-color: #ffffff;
+  box-shadow: 10px 10px 20px #000000;
+  display: inline-block;
+  margin-right: 40px;
+}
+
+.i_photo:hover {
+  color: #ffcc11;
+}
+
+/*SNS*/
+.SNS {
+  padding: 10px;
+}
+
+/* h2見出し */
+.SNS h2 {
+  color: #663300;
+  border-color: #663300;
+}
+
+.SNS {
+  text-align: center;
+}
+
+/* フッター */
+footer {
+  text-align: center;
+  background-color: #663300;
+  color: #ffffff;
+}
