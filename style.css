@@ -44,6 +44,7 @@ header {
   position: fixed;
   z-index: 999;
   margin-top: -150px;
+  justify-content: center;
 }
 
 /* h2見出し */
