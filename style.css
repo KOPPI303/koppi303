@@ -40,7 +40,7 @@ header {
   background-color: #ffffff; /* 背景画像 */
   background-repeat: no-repeat;
   background-size: 400px;
-  width: 1920px;
+  width: 100vw;
   position: fixed;
   z-index: 999;
   margin-top: -150px;
